@@ -4,10 +4,10 @@ $destPath = Join-Path -Path (Join-Path -Path $env:ProgramData -ChildPath Lenovo)
 $destFile = $url.Split('/')[-1]
 
 # Set owner variables
-$ownerName = "Lenovo"
-$ownerDept = "Commercial Deployment Readiness Team"
-$ownerLocation = "Durham,NC"
-$assetPrefix = "CDRT"
+$ownerName = "Clinical Reference Laboratory"
+$ownerDept = "Enterprise Services"
+$ownerLocation = "Lenexa, KS"
+$assetPrefix = "CRL"
 
 try {
     
